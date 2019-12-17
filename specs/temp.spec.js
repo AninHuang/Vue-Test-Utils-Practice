@@ -52,7 +52,6 @@ test('temp', () => {
     wrapper.setProps({
         temp: '50f'
     })
-    
+
     expect(vm.degrees).toBe(50)
-    expect(vm.type).toBe('fahrenheit')
 })
