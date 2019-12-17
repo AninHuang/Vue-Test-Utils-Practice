@@ -4,6 +4,7 @@ import { mount } from '@vue/test-utils'
 test('we can add fruits to basket with DOM', () => {
     const wrapper = mount(FruitBasket)
 
+    // Any valid CSS Selector to find the DOM element
     const input = wrapper.find('input')
     const button = wrapper.find('button')
     expect(wrapper.findAll('li').length).toBe(0)
