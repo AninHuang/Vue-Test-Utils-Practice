@@ -2,11 +2,8 @@
   "name": "vue-school-test-utils-base",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/codebryo/vue-school-test-utils-base.git",
-  "author": "Roman Kuba <roman.kuba@gmail.com>",
-  "license": "MIT",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch -u"
   },
   "dependencies": {
     "@babel/core": "^7.3.4",
